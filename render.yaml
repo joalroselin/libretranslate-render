@@ -1,4 +1,3 @@
-# render instructions
 services:
   - type: web
     name: libretranslate
@@ -12,5 +11,4 @@ services:
       - key: LT_API_KEYS
         fromEnv: LIBRETRANSLATE_API_KEY
       - key: LT_LOAD_ONLY
-        value: "en,es,fr,de, zh" # English, Spanish, French, German, Chinese
-      
+        value: "en,es,fr,de"
