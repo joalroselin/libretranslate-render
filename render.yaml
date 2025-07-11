@@ -5,7 +5,7 @@ services:
     image:
       url: libretranslate/libretranslate:latest
     plan: free
-    healthCheck:
+    healthCheckPath:
       path: /
     envVars:
       - key: LT_API_KEYS
